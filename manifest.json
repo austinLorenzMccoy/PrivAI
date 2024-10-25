@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "PrivAI Extension",
+  "version": "1.0",
+  "description": "Privacy-preserving AI with Gemini, LoRA, and FL",
+  "permissions": ["activeTab", "background", "http://localhost/*"],
+  "background": { "scripts": ["background.js"] },
+  "browser_action": { "default_popup": "popup.html" },
+  "icons": { "48": "icons/icon48.png", "128": "icons/icon128.png" }
+}
+
